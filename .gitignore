@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Audit output (local only)
+reports/
+
+# Local / temporary
+.tmp/
+*.log
+.env
+.env.*
+.claude/settings.local.json
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

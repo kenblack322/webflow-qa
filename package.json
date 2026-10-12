@@ -1,0 +1,16 @@
+{
+  "name": "webflow-qa",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Automated QA audit for Webflow sites, mapped to the build checklist and fixable via Webflow MCP",
+  "scripts": {
+    "qa": "node scripts/qa.mjs",
+    "setup": "npm install && npx playwright install chromium"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "playwright": "^1.55.0"
+  },
+  "license": "MIT"
+}

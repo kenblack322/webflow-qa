@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version)",
+      "Bash(node scripts/doctor.mjs)",
+      "Bash(npm install)",
+      "Bash(npx playwright install chromium)",
+      "Bash(npm run setup)",
+      "Bash(node scripts/qa.mjs:*)",
+      "Bash(node scripts/render.mjs:*)",
+      "Bash(node scripts/webp.mjs:*)",
+      "Bash(node scripts/form-test.mjs --url:*)",
+      "Read(reports/**)",
+      "Write(reports/**)"
+    ],
+    "ask": [
+      "Bash(brew install:*)",
+      "Bash(node scripts/form-test.mjs:* --live*)"
+    ]
+  }
+}
